@@ -1,0 +1,10 @@
+R5T.D0073.Standard - Standard aggregations library for the  IMachineLocationProvider service (stringly-typed, similar to R5T.Hastings, but asynchronous).
+
+* IConfiguration specified as:
+
+{
+	"MachineLocation": {"Local", "Remote"}
+}
+
+* Local is the default if no machine location is specified.
+

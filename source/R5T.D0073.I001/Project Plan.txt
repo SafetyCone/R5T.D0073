@@ -1,0 +1,8 @@
+R5T.D0073.I001 - IConfiguration-based service implementation library for the IMachineLocationProvider service (stringly-typed, similar to R5T.Hastings, but asynchronous).
+
+The machine location value in an appsettings.json configuration file would be:
+
+{
+	"MahchineLocation": {"Local", "Remote"}
+}
+

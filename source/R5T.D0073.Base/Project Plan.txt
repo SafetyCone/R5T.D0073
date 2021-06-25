@@ -1,0 +1,4 @@
+R5T.D0073.Base - Base service definitions library for the IMachineLocationProvider service (stringly-typed, similar to R5T.Hastings, but asynchronous).
+
+Goals
+

@@ -1,0 +1,4 @@
+R5T.D0073.T001 - MachineLocation enumeration types library.
+
+Goals
+

@@ -1,0 +1,4 @@
+R5T.D0073.T002 - MachineLocation strings library.
+
+Goals
+
