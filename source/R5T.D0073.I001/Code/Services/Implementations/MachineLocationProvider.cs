@@ -4,11 +4,13 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 
 using R5T.T0022;
+using R5T.T0064;
 
 
 namespace R5T.D0073.I001
 {
-    public class MachineLocationProvider : IMachineLocationProvider
+    [ServiceImplementationMarker]
+    public class MachineLocationProvider : IMachineLocationProvider, IServiceImplementation
     {
         private IConfiguration Configuration { get; }
         private IDefaultMachineLocationProvider DefaultMachineLocationProvider { get; }
